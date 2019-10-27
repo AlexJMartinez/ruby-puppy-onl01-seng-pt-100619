@@ -7,7 +7,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @save 
+    @save
   end
 
   def save
@@ -20,7 +20,7 @@ class Dog
 
   def self.print_all
     @@all.each do |name|
-        binding.pry
+        #binding.pry
       puts name
 
     end
